@@ -1,0 +1,22 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="AddFrameworkSupport">
+      <i c="1" l="1678015169314" />
+    </e>
+    <e n="NewClass">
+      <i c="2" l="1678015220283" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1678015201862" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1678011229854" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="2" l="1677415731534" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="2" l="1677448966518" />
+    </e>
+  </component>
+</application>
