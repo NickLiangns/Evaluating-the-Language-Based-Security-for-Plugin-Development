@@ -1,6 +1,0 @@
-<options>
-  <configurable id="preferences.keymap" configurable_name="Keymap">
-    <option name="javatotxtaction" path="ActionManager" hit="JavaToTxtAction" />
-    <option name="listhttprequests" path="ActionManager" hit="ListHttpRequests" />
-  </configurable>
-</options>

@@ -6,6 +6,9 @@
     <e n="AddFrameworkSupport">
       <i c="1" l="1678015169314" />
     </e>
+    <e n="EditorBackSpace">
+      <i c="2" l="1678791594247" />
+    </e>
     <e n="EditorEnter">
       <i c="1" l="1678787875804" />
     </e>
@@ -22,10 +25,19 @@
       <i c="2" l="1677415731534" />
     </e>
     <e n="com.intellij.diagnostic.IdeMessagePanel$4">
-      <i c="1" l="1678787842193" />
+      <i c="3" l="1678791741974" />
     </e>
     <e n="com.intellij.ide.ReopenProjectAction">
-      <i c="2" l="1677448966518" />
+      <i c="4" l="1678791728085" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.SelectionBasedPluginModelAction$UninstallAction">
+      <i c="1" l="1678791374176" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+      <i c="5" l="1678791770006" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1678791558798" />
     </e>
   </component>
 </application>

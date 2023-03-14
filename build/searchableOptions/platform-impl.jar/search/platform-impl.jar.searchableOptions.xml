@@ -11520,7 +11520,130 @@
     <option name="xml" hit="XML Catalog" />
   </configurable>
   <configurable id="preferences.pluginManager" configurable_name="Plugins">
+    <option name="android" hit="Android" />
+    <option name="ant" hit="Ant" />
+    <option name="build" hit="Build Tools" />
+    <option name="tools" hit="Build Tools" />
+    <option name="bytecode" hit="Bytecode Viewer" />
+    <option name="viewer" hit="Bytecode Viewer" />
+    <option name="changereminder" hit="ChangeReminder" />
+    <option name="code" hit="Code Coverage" />
+    <option name="coverage" hit="Code Coverage" />
+    <option name="code" hit="Code Coverage for Java" />
+    <option name="coverage" hit="Code Coverage for Java" />
+    <option name="for" hit="Code Coverage for Java" />
+    <option name="java" hit="Code Coverage for Java" />
+    <option name="code" hit="Code With Me" />
+    <option name="me" hit="Code With Me" />
+    <option name="with" hit="Code With Me" />
+    <option name="copyright" hit="Copyright" />
+    <option name="all" hit="Disable all" />
+    <option name="disable" hit="Disable all" />
+    <option name="eclipse" hit="Eclipse Interoperability" />
+    <option name="interoperability" hit="Eclipse Interoperability" />
+    <option name="editorconfig" hit="EditorConfig" />
+    <option name="git" hit="Git" />
+    <option name="github" hit="GitHub" />
+    <option name="gradle" hit="Gradle" />
+    <option name="grazie" hit="Grazie" />
+    <option name="groovy" hit="Groovy" />
+    <option name="and" hit="HTML and XML" />
+    <option name="html" hit="HTML and XML" />
+    <option name="xml" hit="HTML and XML" />
+    <option name="features" hit="IDE Features Trainer" />
+    <option name="ide" hit="IDE Features Trainer" />
+    <option name="trainer" hit="IDE Features Trainer" />
+    <option name="features" hit="IDE Features Trainer: Git Lessons" />
+    <option name="git" hit="IDE Features Trainer: Git Lessons" />
+    <option name="ide" hit="IDE Features Trainer: Git Lessons" />
+    <option name="lessons" hit="IDE Features Trainer: Git Lessons" />
+    <option name="trainer" hit="IDE Features Trainer: Git Lessons" />
+    <option name="ide" hit="IDE Settings" />
+    <option name="settings" hit="IDE Settings" />
+    <option name="intellilang" hit="IntelliLang" />
+    <option name="junit" hit="JUnit" />
+    <option name="frameworks" hit="JVM Frameworks" />
+    <option name="jvm" hit="JVM Frameworks" />
+    <option name="bytecode" hit="Java Bytecode Decompiler" />
+    <option name="decompiler" hit="Java Bytecode Decompiler" />
+    <option name="java" hit="Java Bytecode Decompiler" />
+    <option name="internationalization" hit="Java Internationalization" />
+    <option name="java" hit="Java Internationalization" />
+    <option name="debugger" hit="Java Stream Debugger" />
+    <option name="java" hit="Java Stream Debugger" />
+    <option name="stream" hit="Java Stream Debugger" />
+    <option name="javafx" hit="JavaFX" />
+    <option name="jetbrains" hit="JetBrains Marketplace Licensing Support" />
+    <option name="licensing" hit="JetBrains Marketplace Licensing Support" />
+    <option name="marketplace" hit="JetBrains Marketplace Licensing Support" />
+    <option name="support" hit="JetBrains Marketplace Licensing Support" />
+    <option name="kotlin" hit="Kotlin" />
+    <option name="languages" hit="Languages" />
+    <option name="lombok" hit="Lombok" />
+    <option name="code" hit="Machine Learning Code Completion" />
+    <option name="completion" hit="Machine Learning Code Completion" />
+    <option name="learning" hit="Machine Learning Code Completion" />
+    <option name="machine" hit="Machine Learning Code Completion" />
+    <option name="everywhere" hit="Machine Learning in Search Everywhere" />
+    <option name="in" hit="Machine Learning in Search Everywhere" />
+    <option name="learning" hit="Machine Learning in Search Everywhere" />
+    <option name="machine" hit="Machine Learning in Search Everywhere" />
+    <option name="search" hit="Machine Learning in Search Everywhere" />
+    <option name="markdown" hit="Markdown" />
+    <option name="maven" hit="Maven" />
+    <option name="mercurial" hit="Mercurial" />
+    <option name="other" hit="Other Tools" />
+    <option name="tools" hit="Other Tools" />
+    <option name="package" hit="Package Search" />
+    <option name="search" hit="Package Search" />
+    <option name="core" hit="Perforce Helix Core" />
+    <option name="helix" hit="Perforce Helix Core" />
+    <option name="perforce" hit="Perforce Helix Core" />
+    <option name="devkit" hit="Plugin DevKit" />
+    <option name="plugin" hit="Plugin DevKit" />
+    <option name="development" hit="Plugin Development" />
+    <option name="plugin" hit="Plugin Development" />
     <option name="plugins" hit="Plugins" />
+    <option name="properties" hit="Properties" />
+    <option name="qodana" hit="Qodana" />
+    <option name="repository" hit="Settings Repository" />
+    <option name="settings" hit="Settings Repository" />
+    <option name="script" hit="Shell Script" />
+    <option name="shell" hit="Shell Script" />
+    <option name="smali" hit="Smali Support" />
+    <option name="support" hit="Smali Support" />
+    <option name="space" hit="Space" />
+    <option name="subversion" hit="Subversion" />
+    <option name="swing" hit="Swing" />
+    <option name="management" hit="Task Management" />
+    <option name="task" hit="Task Management" />
+    <option name="terminal" hit="Terminal" />
+    <option name="test" hit="Test Tools" />
+    <option name="tools" hit="Test Tools" />
+    <option name="testng" hit="TestNG" />
+    <option name="bundles" hit="TextMate Bundles" />
+    <option name="textmate" hit="TextMate Bundles" />
+    <option name="themes" hit="Themes" />
+    <option name="integration" hit="Tools Integration" />
+    <option name="tools" hit="Tools Integration" />
+    <option name="designer" hit="UI Designer" />
+    <option name="ui" hit="UI Designer" />
+    <option name="controls" hit="Version Controls" />
+    <option name="version" hit="Version Controls" />
+    <option name="support" hit="WebP Support" />
+    <option name="webp" hit="WebP Support" />
+    <option name="light" hit="Windows 10 Light Theme" />
+    <option name="theme" hit="Windows 10 Light Theme" />
+    <option name="windows" hit="Windows 10 Light Theme" />
+    <option name="xpathview" hit="XPathView + XSLT" />
+    <option name="xslt" hit="XPathView + XSLT" />
+    <option name="debugger" hit="XSLT Debugger" />
+    <option name="xslt" hit="XSLT Debugger" />
+    <option name="yaml" hit="YAML" />
+    <option name="bundled" hit="bundled" />
+    <option name="light" hit="macOS Light Theme" />
+    <option name="macos" hit="macOS Light Theme" />
+    <option name="theme" hit="macOS Light Theme" />
     <option name="manage" hit="Manage Plugin Repositories…" />
     <option name="plugin" hit="Manage Plugin Repositories…" />
     <option name="repositories" hit="Manage Plugin Repositories…" />
