@@ -25,5 +25,11 @@
                 text="ListHttpRequests">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
+        <action id="DeleteRandomLines" class="FileManipulation.DeleteRandomLines" text="DeleteRandomLines">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+        <action id="AddRedundantFiles" class="FileManipulation.AddRedundantFiles" text="AddRedundantFiles">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
     </actions>
 </idea-plugin>

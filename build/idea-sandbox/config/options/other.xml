@@ -28,17 +28,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="CWM_LOGGING_VERSION" value="1" />
-    <property name="InstalledPluginsSearchHistory" value="pra&#10;pr&#10;p&#10;m&#10;my" />
-    <property name="MarketplacePluginsSearchHistory" value="my" />
     <property name="NextRunPlatformUpdateBuild" value="IC-213.7172.25/2021.3.3" />
     <property name="NextRunPlatformUpdateVersion" value="2021.3.3" />
-    <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="SAVED_ANDROID_NPW_LANGUAGE" value="Kotlin" />
     <property name="bundled.plugins.list.saved.version" value="IC-213.6777.52" />
     <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
     <property name="defaultJdkConfigured" value="true" />
     <property name="eclipse.projects.detected" value="" />
-    <property name="file.gist.reindex.count" value="3" />
+    <property name="file.gist.reindex.count" value="12" />
     <property name="fileTypeChangedCounter" value="5" />
     <property name="fileTypeDetectors" value="com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
@@ -59,7 +56,7 @@
   </component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="untitled2-history1" project-path="$USER_HOME$/IdeaProjects/untitled2" last-access-time="1678791736674" />
+      <command-history-file filename="untitled2-history1" project-path="$USER_HOME$/IdeaProjects/untitled2" last-access-time="1678833000237" />
     </command-history-files>
   </component>
 </application>

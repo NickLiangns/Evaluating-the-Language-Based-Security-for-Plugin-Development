@@ -1,0 +1,1 @@
+{"recorder_version":"5","session":"23031422-b6817740ac77","build":"213.6777.52","bucket":"151","time":1678832137750,"group":{"id":"mlse.event.log","version":"5"},"event":{"count":1,"data":{"system_event_id":6,"version":"3060.0","created":1678832137760},"id":"metadata.loaded"}}

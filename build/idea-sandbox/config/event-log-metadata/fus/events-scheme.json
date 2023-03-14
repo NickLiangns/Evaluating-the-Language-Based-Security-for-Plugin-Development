@@ -469,6 +469,19 @@
       }
     }
   }, {
+    "id" : "cloud.tools",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:tool.installed|config.exists}" ],
+      "event_data" : {
+        "config" : [ "{enum:kubeconfig}" ],
+        "tool" : [ "{enum:docker|helm|kubectl|minikube|podman|telepresence|terraform|ansible}" ]
+      }
+    }
+  }, {
     "id" : "commit.interactions",
     "builds" : [ ],
     "versions" : [ {
@@ -756,6 +769,7 @@
       "event_id" : [ "{enum:finished}" ],
       "event_data" : {
         "duration_ms" : [ "{regexp#integer}" ],
+        "entireFileHighlighted" : [ "{enum#boolean}" ],
         "errors" : [ "{regexp#integer}" ],
         "file_type" : [ "{util#file_type}" ],
         "lines" : [ "{regexp#integer}" ],
@@ -2411,7 +2425,7 @@
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "libraries" : [ "activemq", "activiti", "aeron", "akka-actor-typed", "akka-http", "akka-java", "akka-stream", "algebird", "allure1", "allure2", "androidx-compose", "apache-bval", "apache-camel", "apache-cayenne", "apache-collections", "apache-deltaspike", "apache-deltaspike-data", "apache-dubbo", "apache-flink", "apache-hc", "apache-http", "apache-ignite", "apache-mina", "apache-pdfbox", "apache-poi", "apache-pulsar", "apache-rocketmq", "apache-shiro", "apache-spark", "apache-thrift", "apache-tiles", "apollo", "appium", "armeria", "arquillian", "arrowkt", "asm", "aspectj", "async-http-client", "atlas", "avro", "aws-s3", "aws-sdk", "aws-sqs", "awspring", "axonframework", "axoniq", "blade", "breeze", "bytebuddy", "caliban", "camunda", "cats", "cats-effect", "chimney", "chisel3", "circe", "citrus", "clikt", "coherence", "consul", "corda", "coroutineworker", "crashkios", "cucumber", "dagger", "datanucleus-jpa", "debezium", "decompose", "deequ", "delta-core", "documents4j", "dokka", "doobie", "doodle", "drools", "dropwizard", "easymock", "ebean", "eclipse-collections", "eclipselink", "eclipselink-jpa", "ehcache", "elastic4s", "elasticmq", "eureka", "exposed", "fastutil", "finagle", "finatra", "firebase-kotlin-sdk", "flexy-pool", "flowable", "fluentlenium", "flyway", "freemarker", "fritz2", "fs2", "fuel", "gatling", "gauge-java", "geb", "google-cloud-pubsub", "google-http-java-client", "gorm", "grails", "graphql-java", "graphql-kotlin", "groovy", "gson", "guice", "gwt", "h2", "hazelcast", "helidon", "hexagonkt", "hibernate", "hibernate-envers", "hibernate-reactive", "hibernate-validator", "hikaricp", "htmlelements", "http4k", "http4s", "hystrix", "infinispan", "io.grpc", "itextpdf", "jackson", "jaegertracing", "jakarta-batch", "jakarta-cdi", "jakarta-ejb", "jakarta-jms", "jakarta-jpa", "jakarta-jsf", "jakarta-nosql", "jakarta-rs", "jakarta-validation", "jakarta-websocket", "jakarta-ws", "java-swing", "java-websocket", "javafx", "javalin", "javax-batch", "javax-cdi", "javax-ejb", "javax-jms", "javax-jpa", "javax-jsf", "javax-rs", "javax-validation", "javax-websocket", "jbehave", "jbpm", "jdbi", "jdi-light", "jedis", "jetbrains-annotations", "jetbrains-compose", "jhipster", "jmockit", "jodd-db", "jooby", "jooq", "js-externals", "json4s", "jsoniter-scala", "jsonpath", "jsoup", "junit", "junit5", "kafka", "karate", "klaxon", "klock", "kodein", "kodein-db", "kodein-di", "koin", "korge", "kotest", "kotless", "kotlin", "kotlin-material-ui", "kotlin-test", "kotlinx-benchmark", "kotlinx-browser", "kotlinx-cli", "kotlinx-collections-immutable", "kotlinx-coroutines", "kotlinx-datetime", "kotlinx-html", "kotlinx-io", "kotlinx-serialization", "ktlint", "ktor", "ktorm", "kvision", "lagom", "laminar", "liquibase", "log4j", "logback", "lombok", "lucene", "macwire", "magnolia", "mapstruct", "micrometer", "micronaut", "microprofile", "mleap", "mockito", "mockk", "mockserver", "moko-mvvm", "monix", "monocle", "multik", "multiplatform-settings", "munit", "mvikotlin", "mybatis", "napier", "netty", "npm-publish", "okhttp3", "okio", "opencv", "openfeign", "openjpa", "opentelemetry", "opentracing", "optaplanner", "osgi", "play", "play-json", "playwright-java", "protobuf", "pureconfig", "quarkus", "quarkus-qute", "quartz", "querydsl", "quill", "r2dbc", "rabbitmq", "rabbitmq-java-client", "reactor", "reaktive", "refined", "resilience4j", "restassured", "retrofit2", "robotframework", "rsocket-java", "rsocket-kotlin", "rxdownload", "rxjava", "rxjava3", "rxkotlin", "sangria", "scala", "scala-async", "scalacheck", "scalafx", "scalalikejdbc", "scalameta", "scalamock", "scalapb", "scalatest", "scalatra", "scalaz", "scio", "selenide", "selenium", "serenity", "shapeless", "skunk", "slf4j", "slick", "smallrye-mutiny", "spark", "specs2", "spek", "spire", "spock", "spring-amqp", "spring-batch", "spring-boot", "spring-cloud", "spring-cloud-gateway", "spring-cloud-kubernetes", "spring-cloud-openfeign", "spring-cloud-retrofit", "spring-cloud-stream", "spring-core", "spring-data-commons", "spring-data-hadoop", "spring-data-jdbc-ext", "spring-data-jpa", "spring-data-mongo", "spring-data-neo4j", "spring-data-r2dbc", "spring-data-rest", "spring-data-solr", "spring-graphql", "spring-integration", "spring-integration-amqp", "spring-kafka", "spring-osgi", "spring-security", "spring-security-oauth2", "spring-session", "spring-web", "spring-webflow", "spring-webflux", "spring-websocket", "spring-ws", "springfox", "sqldelight", "stately", "streamex", "struts2", "sttp", "swagger-v2", "swagger-v3", "tapestry5", "tapir", "testcontainers", "testng", "thymeleaf", "tornadofx", "twitter-server", "twitter-util", "unfiltered", "unirest", "upickle", "utest", "vaadin-flow", "vavr", "velocity", "vertx", "webtau", "weld", "wiremock", "xmlgraphics", "zio", "zio-test", "zipkin2", "zookeeper", "zuul" ]
+        "libraries" : [ "activemq", "activemq-client", "activiti", "activiti-bpm", "aeron", "akka-actor", "akka-actor-typed", "akka-http", "akka-java", "akka-stream", "algebird", "allure1", "allure2", "amazon-sqs", "androidx-compose", "apache-bval", "apache-camel", "apache-cayenne", "apache-collections", "apache-deltaspike", "apache-deltaspike-data", "apache-dubbo", "apache-flink", "apache-hc", "apache-http", "apache-ignite", "apache-mina", "apache-pdfbox", "apache-poi", "apache-pulsar", "apache-rocketmq", "apache-shiro", "apache-spark", "apache-thrift", "apache-tiles", "apollo", "appium", "armeria", "arquillian", "arrowkt", "asm", "aspectj", "async-http-client", "atlas", "avro", "aws-s3", "aws-sdk", "aws-sqs", "awspring", "axonframework", "axoniq", "blade", "breeze", "bytebuddy", "caliban", "camunda", "camunda-bpm", "cats", "cats-effect", "chimney", "chisel3", "circe", "citrus", "clikt", "coherence", "consul", "corda", "coroutineworker", "crashkios", "cucumber", "dagger", "datanucleus-jpa", "debezium", "decompose", "deequ", "delta-core", "documents4j", "dokka", "doobie", "doodle", "drools", "dropwizard", "easymock", "ebean", "eclipse-collections", "eclipselink", "eclipselink-jpa", "ehcache", "elastic4s", "elasticmq", "eureka", "exposed", "fastutil", "finagle", "finatra", "firebase-kotlin-sdk", "flexy-pool", "flowable", "flowable-bpm", "fluentlenium", "flyway", "freemarker", "fritz2", "fs2", "fuel", "gatling", "gauge-java", "geb", "google-cloud-pubsub", "google-http-java-client", "gorm", "grails", "graphql-java", "graphql-kotlin", "groovy", "grpc", "gson", "guice", "gwt", "h2", "hazelcast", "hazelcast-jet", "helidon", "hexagonkt", "hibernate", "hibernate-envers", "hibernate-reactive", "hibernate-validator", "hikaricp", "htmlelements", "http4k", "http4s", "hystrix", "infinispan", "io.grpc", "itextpdf", "jackson", "jaeger", "jaegertracing", "jakarta-batch", "jakarta-cdi", "jakarta-ejb", "jakarta-jms", "jakarta-jpa", "jakarta-jsf", "jakarta-nosql", "jakarta-rs", "jakarta-validation", "jakarta-websocket", "jakarta-ws", "java-swing", "java-websocket", "javafx", "javalin", "javax-batch", "javax-cdi", "javax-ejb", "javax-jms", "javax-jpa", "javax-jsf", "javax-rs", "javax-validation", "javax-websocket", "javax-ws", "jbehave", "jbpm", "jdbi", "jdi-light", "jedis", "jetbrains-annotations", "jetbrains-compose", "jhipster", "jmockit", "jodd-db", "jooby", "jooq", "js-externals", "jsf", "json-path", "json4s", "jsoniter-scala", "jsonpath", "jsoup", "junit", "junit4", "junit5", "kafka", "kafka-client", "karate", "klaxon", "klock", "kodein", "kodein-db", "kodein-di", "koin", "korge", "kotest", "kotless", "kotlin", "kotlin-material-ui", "kotlin-test", "kotlinx-benchmark", "kotlinx-browser", "kotlinx-cli", "kotlinx-collections-immutable", "kotlinx-coroutines", "kotlinx-datetime", "kotlinx-html", "kotlinx-io", "kotlinx-serialization", "ktlint", "ktor", "ktorm", "kvision", "lagom", "lagom-java", "lagom-scala", "laminar", "liquibase", "log4j", "logback", "lombok", "lucene", "macwire", "magnolia", "mapstruct", "micrometer", "micronaut", "microprofile", "microprofile-config", "mleap", "mockito", "mockk", "mockserver", "moko-mvvm", "monix", "monocle", "multik", "multiplatform-settings", "munit", "mvikotlin", "mybatis", "napier", "netty", "npm-publish", "ok3-http", "okhttp3", "okio", "opencv", "openfeign", "openjfx", "openjpa", "opentelemetry", "opentracing", "optaplanner", "osgi", "play", "play-json", "play2", "playwright-java", "protobuf", "pureconfig", "quarkus", "quarkus-qute", "quartz", "querydsl", "quill", "r2dbc", "rabbitmq", "rabbitmq-client", "rabbitmq-java-client", "reactor", "reaktive", "refined", "resilience4j", "restassured", "retrofit", "retrofit2", "robotframework", "rsocket", "rsocket-java", "rsocket-kotlin", "rx-java", "rx-java3", "rxdownload", "rxjava", "rxjava3", "rxkotlin", "sangria", "scala", "scala-async", "scalacheck", "scalafx", "scalalikejdbc", "scalameta", "scalamock", "scalapb", "scalatest", "scalatra", "scalaz", "scio", "selenide", "selenium", "serenity", "shapeless", "skunk", "slf4j", "slick", "smallrye-mutiny", "spark", "spark-java", "specs2", "spek", "spire", "spock", "spring-amqp", "spring-batch", "spring-boot", "spring-cloud", "spring-cloud-commons", "spring-cloud-gateway", "spring-cloud-kubernetes", "spring-cloud-openfeign", "spring-cloud-retrofit", "spring-cloud-stream", "spring-core", "spring-data-commons", "spring-data-hadoop", "spring-data-jdbc-ext", "spring-data-jpa", "spring-data-mongo", "spring-data-neo4j", "spring-data-r2dbc", "spring-data-rest", "spring-data-solr", "spring-graphql", "spring-integration", "spring-integration-amqp", "spring-kafka", "spring-mvc", "spring-osgi", "spring-rabbitmq", "spring-security", "spring-security-oauth", "spring-security-oauth2", "spring-session", "spring-web", "spring-webflow", "spring-webflux", "spring-websocket", "spring-ws", "springfox", "springOldJavaConfig", "sqldelight", "stately", "streamex", "struts2", "sttp", "swagger-v2", "swagger-v3", "tapestry5", "tapir", "testcontainers", "testng", "thymeleaf", "tornadofx", "twitter-server", "twitter-util", "unfiltered", "unirest", "upickle", "utest", "vaadin-flow", "vavr", "velocity", "vertx", "webtau", "webtau-browser", "webtau-http", "weld", "wiremock", "xmlgraphics", "zio", "zio-test", "zipkin2", "zookeeper", "zuul" ]
       }
     }
   }, {
@@ -2767,19 +2781,19 @@
       "event_data" : {
         "build_system" : [ "{enum:gradleKotlin|gradleGroovy|jps|maven}" ],
         "group" : [ "{enum:Java|Kotlin|Gradle}" ],
-        "module_template" : [ "{enum:composeAndroid|composeDesktopTemplate|composeMppModule|consoleJvmApp|ktorServer|mobileMppModule|nativeConsoleApp|reactJsClient|simpleJsClient|simpleNodeJs|none}" ],
+        "module_template" : [ "{enum:composeAndroid|composeDesktopTemplate|composeMppModule|consoleJvmApp|ktorServer|mobileMppModule|nativeConsoleApp|reactJsClient|simpleJsClient|simpleNodeJs|none}", "{enum:simpleWasmClient}" ],
         "module_template_changed" : [ "{regexp#integer}" ],
-        "module_type" : [ "{enum:androidNativeArm32Target|androidNativeArm64Target|iosArm32Target|iosArm64Target|iosX64Target|iosTarget|linuxArm32HfpTarget|linuxMips32Target|linuxMipsel32Target|linuxX64Target|macosX64Target|mingwX64Target|mingwX86Target|nativeForCurrentSystem|jsBrowser|jsNode|commonTarget|jvmTarget|androidTarget|multiplatform|JVM_Module|android|IOS_Module|jsBrowserSinglePlatform|jsNodeSinglePlatform}" ],
+        "module_type" : [ "{enum:androidNativeArm32Target|androidNativeArm64Target|iosArm32Target|iosArm64Target|iosX64Target|iosTarget|linuxArm32HfpTarget|linuxMips32Target|linuxMipsel32Target|linuxX64Target|macosX64Target|mingwX64Target|mingwX86Target|nativeForCurrentSystem|jsBrowser|jsNode|commonTarget|jvmTarget|androidTarget|multiplatform|JVM_Module|android|IOS_Module|jsBrowserSinglePlatform|jsNodeSinglePlatform}", "{enum:wasmSimple}" ],
         "modules_created" : [ "{regexp#integer}" ],
         "modules_removed" : [ "{regexp#integer}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
         "plugin_version" : [ "{util#plugin_version}", "{regexp#kotlin_version}" ],
-        "project_modules_list" : [ "{enum#__project_modules_list}" ],
-        "project_template" : [ "{enum#__project_template}", "{enum:reactApplication}", "{enum:multiplatformMobileApplicationUsingAppleGradlePlugin}", "{enum:multiplatformMobileApplicationUsingHybridProject}" ],
+        "project_modules_list" : [ "{enum#__project_modules_list}", "{enum:wasmSimple}" ],
+        "project_template" : [ "{enum#__project_template}", "{enum:reactApplication}", "{enum:multiplatformMobileApplicationUsingAppleGradlePlugin}", "{enum:multiplatformMobileApplicationUsingHybridProject}", "{enum:simpleWasmApplication}" ],
         "session_id" : [ "{regexp#integer}" ],
         "setting_id" : [ "{enum:buildSystem.type|testFramework|targetJvmVersion|androidPlugin|serverEngine|js.project.kind|js.compiler|projectTemplates.template|module.template|jvm.javaSupport|js.cssSupport|js.useStyledComponents|js.useReactRouterDom|js.useReactRedux}" ],
-        "setting_value" : [ "{enum#__setting_value}", "{enum:multiplatformMobileApplicationUsingAppleGradlePlugin}", "{enum:multiplatformMobileApplicationUsingHybridProject}" ]
+        "setting_value" : [ "{enum#__setting_value}", "{enum:multiplatformMobileApplicationUsingAppleGradlePlugin}", "{enum:multiplatformMobileApplicationUsingHybridProject}", "{enum:simpleWasmApplication|simpleWasmClient}" ]
       },
       "enums" : {
         "__event_id" : [ "project_created", "wizard_opened_by_hyperlink", "module_template_created", "module_created", "prev_clicked", "next_clicked", "jdk_changed", "setting_value_changed", "module_removed" ],
@@ -2910,7 +2924,10 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum:navigation.gutter.label.container|inspection.remove.duplicate.envvar|completion.kind|completion.label.key}" ]
+      "event_id" : [ "{enum#__event_id}" ],
+      "enums" : {
+        "__event_id" : [ "navigation.gutter.label.container", "inspection.remove.duplicate.envvar", "completion.kind", "completion.label.key", "completion.schema" ]
+      }
     }
   }, {
     "id" : "leftover.dirs",
@@ -2954,8 +2971,9 @@
       "event_data" : {
         "command_line" : [ "{enum#boolean}" ],
         "debug_agent" : [ "{enum#boolean}" ],
-        "duration_grouped" : [ "{regexp#integer}s", "-{regexp#integer}s", "{regexp#integer}s+" ],
+        "duration_grouped" : [ "{regexp#integer}", "{regexp#integer}+", "{regexp#integer}s", "{regexp#integer}s+" ],
         "duration_ms" : [ "{regexp#integer}" ],
+        "duration_s" : [ "{regexp#integer}" ],
         "eap" : [ "{enum#boolean}" ],
         "error" : [ "{util#class_name}" ],
         "error_frames" : [ "{util#method_name}" ],
@@ -2963,14 +2981,17 @@
         "error_size" : [ "{regexp#integer}" ],
         "headless" : [ "{enum#boolean}" ],
         "internal" : [ "{enum#boolean}" ],
+        "mapping_failed" : [ "{enum#boolean}" ],
         "memory_error_kind" : [ "{enum#__memory_error_kind}", "{enum:direct_buffers}" ],
         "mode" : [ "{enum:new|same|attach}" ],
+        "oom" : [ "{enum#boolean}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
         "plugin_version" : [ "{util#plugin_version}" ],
         "project_tab" : [ "{enum#boolean}" ],
         "restart" : [ "{enum#boolean}" ],
         "test" : [ "{enum#boolean}" ],
+        "time_ms" : [ "{regexp#integer}" ],
         "too_many_errors" : [ "{enum#boolean}" ]
       },
       "enums" : {
@@ -3026,6 +3047,8 @@
         "duration_ms" : [ "{regexp#integer}" ],
         "ide_requires_license" : [ "{enum#boolean}" ],
         "input_event" : [ "{util#shortcut}" ],
+        "license" : [ "{enum:none|trial|student|professional|open_source}" ],
+        "link_copy" : [ "{enum#boolean}" ],
         "logged_in" : [ "{enum#boolean}" ],
         "login_provider" : [ "{enum:jba|google|github|gitlab|bitbucket}" ],
         "newsletter" : [ "{enum#boolean}" ],
@@ -3034,10 +3057,12 @@
         "session_time_ms" : [ "{regexp#integer}" ],
         "source" : [ "{enum:login_dialog|licenses_user_info|licenses_new_license|licenses_trial}", "{enum:LicenseDialogLink}" ],
         "successful" : [ "{enum#boolean}" ],
+        "token_check" : [ "{enum#boolean}" ],
+        "token_input" : [ "{enum#boolean}" ],
         "troubles_pressed" : [ "{enum#boolean}" ]
       },
       "enums" : {
-        "__event_id" : [ "exit", "licenses.dialog.shown", "request.trial", "continue", "browser.login", "buy.license" ]
+        "__event_id" : [ "exit", "licenses.dialog.shown", "request.trial", "continue", "browser.login", "buy.license", "licenses.dialog.closed", "manual.login", "browser.register" ]
       }
     }
   }, {
@@ -3343,6 +3368,8 @@
     "rules" : {
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "checkbox_name" : [ "{enum:OnlyStable|OnlyKotlinMp}" ],
+        "checkbox_state" : [ "{enum#boolean}" ],
         "details_link_label" : [ "{enum:PackageUsages|GitHub|Documentation|License|ProjectWebsite|Readme}" ],
         "details_visible" : [ "{enum#boolean}", "{enum:PackageDetails|OnlyStable|OnlyKotlinMp}" ],
         "event_data_1" : [ "{regexp#integer}" ],
@@ -3363,11 +3390,12 @@
         "repository_url" : [ "{enum:https://repo.maven.apache.org/maven2/|https://maven-central.storage-download.googleapis.com/maven2|https://repo1.maven.org/maven2/|https://maven.google.com/|https://maven.pkg.jetbrains.space/kotlin/p/dokka/dev/|https://maven.pkg.jetbrains.space/public/p/compose/dev/|https://maven.pkg.jetbrains.space/public/p/ktor/eap/|https://maven.pkg.jetbrains.space/public/p/space/maven/}", "{enum:https://repo.clojars.org/}" ],
         "repository_uses_custom_url" : [ "{enum#boolean}" ],
         "search_query_length" : [ "{regexp#integer}" ],
+        "sort_metric" : [ "{enum:None|GitHub stars|StackOverflow health|Dependency rating|OSS health}" ],
         "target_modules" : [ "{enum:None|One|All}", "{enum:Some}" ],
         "target_modules_mixed_build_systems" : [ "{enum#boolean}" ]
       },
       "enums" : {
-        "__event_id" : [ "enabled", "maven", "gradle-groovy", "gradle-kts", "details_link_click", "preferences_changed", "toggle", "package_installed", "package_selected", "upgrade_all_event", "repository_removed", "package_updated", "repository_added", "target_modules_selected", "package_removed", "search_query_clear", "preferences_restore_defaults", "search_request" ]
+        "__event_id" : [ "enabled", "maven", "gradle-groovy", "gradle-kts", "details_link_click", "preferences_changed", "toggle", "package_installed", "package_selected", "upgrade_all_event", "repository_removed", "package_updated", "repository_added", "target_modules_selected", "package_removed", "search_query_clear", "preferences_restore_defaults", "search_request", "sort_metric_changed" ]
       }
     }
   }, {
@@ -3671,6 +3699,7 @@
     "rules" : {
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "pluginId" : [ "{util#plugin}" ],
         "plugins" : [ "{util#plugin}" ],
         "source" : [ "{enum:editor|notification}", "{enum:search}" ]
       },
@@ -5205,20 +5234,26 @@
     "rules" : {
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "applied" : [ "{enum#boolean}" ],
         "class" : [ "{util#class_name}" ],
         "count" : [ "{regexp#integer}" ],
         "duration_ms" : [ "{regexp#integer}" ],
         "expand" : [ "{enum#boolean}" ],
+        "final_zoom_scale_percent" : [ "{regexp#integer}" ],
         "lang" : [ "{util#lang}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
         "plugin_version" : [ "{util#plugin_version}" ],
+        "presentation_mode" : [ "{enum#boolean}" ],
         "recursive" : [ "{enum#boolean}" ],
         "target_class" : [ "{util#class_name}" ],
-        "with_selection" : [ "{enum#boolean}" ]
+        "with_selection" : [ "{enum#boolean}" ],
+        "zoom_mode" : [ "{enum:ZOOM_IN|ZOOM_OUT}" ],
+        "zoom_place" : [ "{enum:SETTINGS|SWITCHER}" ],
+        "zoom_scale_percent" : [ "{regexp#integer}" ]
       },
       "enums" : {
-        "__event_id" : [ "ProgressPaused", "ProgressResumed", "NavBarShowPopup", "NavBarNavigate", "BreadcrumbShowTooltip", "BreadcrumbNavigate", "DumbModeDialogWasNotNeeded", "DumbModeDialogRequested", "DumbModeDialogShown", "DumbModeDialogCancelled", "DumbModeDialogFinished", "DumbModeDialogProceededToActions", "IncrementalSearchActivated", "IncrementalSearchKeyTyped", "IncrementalSearchCancelled", "IncrementalSearchNextPrevItemSelected", "DumbModeBalloonWasNotNeeded", "DumbModeBalloonRequested", "DumbModeBalloonShown", "DumbModeBalloonCancelled", "DumbModeBalloonProceededToActions", "ShowUsagesPopupShowSettings", "LookupExecuteElementAction", "ToolWindowsWidgetPopupClicked", "ToolWindowsWidgetPopupShown", "LookupShowElementActions", "ImplementationViewComboBoxSelected", "ImplementationViewToolWindowOpened", "DaemonEditorPopupInvoked", "HectorPopupDisplayed", "EditorFoldingIconClicked", "QuickNavigateInfoPopupShown", "EditorAnnotationClicked", "StatusBarWidgetClicked", "StatusBarPopupShown", "CtrlMouseHintShown" ]
+        "__event_id" : [ "ProgressPaused", "ProgressResumed", "NavBarShowPopup", "NavBarNavigate", "BreadcrumbShowTooltip", "BreadcrumbNavigate", "DumbModeDialogWasNotNeeded", "DumbModeDialogRequested", "DumbModeDialogShown", "DumbModeDialogCancelled", "DumbModeDialogFinished", "DumbModeDialogProceededToActions", "IncrementalSearchActivated", "IncrementalSearchKeyTyped", "IncrementalSearchCancelled", "IncrementalSearchNextPrevItemSelected", "DumbModeBalloonWasNotNeeded", "DumbModeBalloonRequested", "DumbModeBalloonShown", "DumbModeBalloonCancelled", "DumbModeBalloonProceededToActions", "ShowUsagesPopupShowSettings", "LookupExecuteElementAction", "ToolWindowsWidgetPopupClicked", "ToolWindowsWidgetPopupShown", "LookupShowElementActions", "ImplementationViewComboBoxSelected", "ImplementationViewToolWindowOpened", "DaemonEditorPopupInvoked", "HectorPopupDisplayed", "EditorFoldingIconClicked", "QuickNavigateInfoPopupShown", "EditorAnnotationClicked", "StatusBarWidgetClicked", "StatusBarPopupShown", "CtrlMouseHintShown", "ide.zoom.switcher.closed", "ide.zoom.changed" ]
       }
     }
   }, {
@@ -5375,7 +5410,10 @@
         "duration_first_results_ms" : [ "{regexp#integer}" ],
         "duration_ms" : [ "{regexp#integer}" ],
         "id" : [ "{regexp#integer}" ],
+        "is_among_recent_files" : [ "{enum#boolean}" ],
+        "is_file_already_opened" : [ "{enum#boolean}" ],
         "is_similar_usage" : [ "{enum#boolean}" ],
+        "is_the_same_file" : [ "{enum#boolean}" ],
         "item_chosen" : [ "{enum#boolean}" ],
         "lang" : [ "{util#lang}" ],
         "new" : [ "{util#scopeRule}" ],
@@ -5391,15 +5429,23 @@
         "reference_class" : [ "{util#class_name}" ],
         "results_total" : [ "{regexp#integer}" ],
         "scope" : [ "{util#scopeRule}" ],
+        "selected_element.is_in_injected_file" : [ "{enum#boolean}" ],
+        "selected_element.is_in_test_sources" : [ "{enum#boolean}" ],
+        "selected_element.lang" : [ "{util#lang}" ],
+        "selected_element.reference_class" : [ "{util#class_name}" ],
         "selected_usage" : [ "{regexp#integer}" ],
         "symbol" : [ "{util#class_name}" ],
+        "target_element.is_in_injected_file" : [ "{enum#boolean}" ],
+        "target_element.is_in_test_sources" : [ "{enum#boolean}" ],
+        "target_element.lang" : [ "{util#lang}" ],
+        "target_element.reference_class" : [ "{util#class_name}" ],
         "too_many_result_warning" : [ "{enum#boolean}" ],
         "ui_location" : [ "{enum:ShowUsagesPopup|FindToolWindow}" ],
         "usage_view" : [ "{regexp#integer}" ],
         "userAction" : [ "{enum:Shown|Aborted|Continued}" ]
       },
       "enums" : {
-        "__event_id" : [ "usage.navigate", "usage.shown", "tooManyResultsDialog", "scope.changed", "switch.tab", "item.chosen", "finished", "started", "open.in.tool.window", "cancelled", "popup.closed" ]
+        "__event_id" : [ "usage.navigate", "usage.shown", "tooManyResultsDialog", "scope.changed", "switch.tab", "item.chosen", "finished", "started", "open.in.tool.window", "cancelled", "popup.closed", "item.chosen.in.popup.features" ]
       }
     }
   }, {
@@ -6043,5 +6089,5 @@
       "version" : "Unknown|unknown.format|unknown|UNKNOWN|((\\d+\\.?)*\\d+)"
     }
   },
-  "version" : "3043"
+  "version" : "3060"
 }

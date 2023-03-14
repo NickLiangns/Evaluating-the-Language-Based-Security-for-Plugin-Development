@@ -8,11 +8,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lkl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/k.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/l.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -21,16 +48,21 @@
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="JAVA">
-      <summary usageCount="3" lastUsed="1678791342665" />
+      <summary usageCount="17" lastUsed="1678832989625" />
     </fileType>
     <fileType name="PLAIN_TEXT">
-      <summary usageCount="5" lastUsed="1678791735067" />
+      <summary usageCount="6" lastUsed="1678832989223" />
     </fileType>
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/src/test/test.java" />
       <option value="$PROJECT_DIR$/src/test/sample.java" />
+      <option value="$PROJECT_DIR$/src/test/kk.java" />
+      <option value="$PROJECT_DIR$/src/lkl.java" />
+      <option value="$PROJECT_DIR$/hello.java" />
+      <option value="$PROJECT_DIR$/src/test/o.java" />
+      <option value="$PROJECT_DIR$/src/test/k.java" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -43,13 +75,29 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="codeStyles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
@@ -66,6 +114,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -108,24 +157,44 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="445" y="113" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.25.1440.790@0.25.1440.790" timestamp="1678015171381" />
-    <state x="308" y="158" key="IDE.errors.dialog" timestamp="1678791749838">
+    <state x="308" y="158" key="IDE.errors.dialog" timestamp="1678787848846">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="308" y="158" key="IDE.errors.dialog/0.25.1440.790@0.25.1440.790" timestamp="1678791749838" />
-    <state x="229" y="66" key="SettingsEditor" timestamp="1678791776380">
-      <screen x="0" y="25" width="1440" height="790" />
-    </state>
-    <state x="229" y="66" key="SettingsEditor/0.25.1440.790@0.25.1440.790" timestamp="1678791776380" />
+    <state x="308" y="158" key="IDE.errors.dialog/0.25.1440.790@0.25.1440.790" timestamp="1678787848846" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/test.java" />
     <entry file="file://$PROJECT_DIR$/src/test/sample_3.txt" />
     <entry file="file://$PROJECT_DIR$/src/test/sample_2.txt" />
     <entry file="file://$PROJECT_DIR$/src/test/sample.java" />
-    <entry file="file://$PROJECT_DIR$/src/test.txt">
+    <entry file="file://$PROJECT_DIR$/src/test.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/kk.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/o.txt" />
+    <entry file="file://$PROJECT_DIR$/src/lkl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/k.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/l.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
