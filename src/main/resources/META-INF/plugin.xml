@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>Myplugin</id>
     <name>Practice</name>
-    <vendor email="" url="">Github</vendor>
+    <vendor email="1109000414lns@gmail.com" url="https://github.com/NickLiangns/Evaluating-the-Language-Based-Security-for-Plugin-Development">Github</vendor>
 
     <description><![CDATA[
     Welcome to use, this is my first plugin!
@@ -18,17 +18,6 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="it.unisa.HelloWorldPlugin.PopupDialogAction" class="it.unisa.HelloWorldPlugin.PopupDialogAction"
-                text="HelloWorld" description="a simple plugin">
-            <add-to-group group-id="ToolsMenu" anchor="first"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="T" second-keystroke="O"/>
-        </action>
-        <action id="PopupAction" class="it.unisa.HelloWorldPlugin.PopupAction" text="PopupAction">
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-        </action>
-        <action id="MyMenu" class="it.unisa.HelloWorldPlugin.MyMenu" text="MyMenu">
-            <add-to-group group-id="MainMenu" anchor="last"/>
-        </action>
         <action id="JavaToTxtAction" class="FileManipulation.JavaToTxtAction" text="JavaToTxtAction">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>

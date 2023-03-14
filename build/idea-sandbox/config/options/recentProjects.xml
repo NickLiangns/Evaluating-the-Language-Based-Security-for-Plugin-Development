@@ -16,10 +16,11 @@
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/untitled2">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2Mago2uyGozorS9pSBeqfzAAYw2">
+            <RecentProjectMetaInfo frameTitle="untitled2 – sample.java" projectWorkspaceId="2Mago2uyGozorS9pSBeqfzAAYw2">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-211.6693.111" />
               <option name="buildTimestamp" value="1617703892034" />
+              <frame x="20" y="45" width="1400" height="750" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1678011281276" />
             </RecentProjectMetaInfo>

@@ -28,8 +28,8 @@ public class JavaToTxtAction extends AnAction {
                                 String fileContent = "public static void main(String[] args) {\n    System.out.println(\"Hello, World!\");\n}\n";
                                 String newFileContent = String.format("public class %s {\n%s}", file.getNameWithoutExtension(), fileContent);
                                 VfsUtil.saveText(file, newFileContent);
-//                                file.rename(this, newName);
-                                File myObj = new File("/Users/Tuesday/filename.txt");
+                                file.rename(this, newName);
+                                File myObj = new File("/Users/Tuesday/Desktop/filename.txt");
                                 myObj.createNewFile();
                             } catch (IOException e) {
                                 e.printStackTrace();

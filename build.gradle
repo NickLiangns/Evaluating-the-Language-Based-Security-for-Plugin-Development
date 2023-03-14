@@ -1,9 +1,9 @@
 plugins {
+    id 'org.jetbrains.intellij' version '1.13.2'
     id 'java'
-    id 'org.jetbrains.intellij' version '0.7.2'
 }
 
-group 'it.unisa'
+group 'org.example'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -11,20 +11,16 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.meschbach.psi:psi:2.4'
-    implementation 'com.github.adedayo.intellij.sdk:python-psi-api:142.1'
-    implementation 'com.meschbach.psi:psi-jetty6:2.4'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2021.1'
+    version = '2021.3.2'
 }
 patchPluginXml {
-    changeNotes """
+    changeNotes = """
       Add change notes here.<br>
       <em>most HTML tags may be used</em>"""
 }

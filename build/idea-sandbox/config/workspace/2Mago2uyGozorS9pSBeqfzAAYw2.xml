@@ -1,29 +1,45 @@
 <project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="untitled2" />
+      </GroupState>
+    </option>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/sample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="2" lastUsed="1678787875775" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="2" lastUsed="1678787828400" />
+    </fileType>
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/src/test/test.java" />
+      <option value="$PROJECT_DIR$/src/test/sample.java" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -62,15 +78,22 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="untitled2-history1" />
+    </option>
+  </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035715" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
       <window_info id="Learn" order="4" />
       <window_info id="Pull Requests" order="5" />
       <window_info id="Space Code Reviews" order="6" />
+      <window_info id="Bookmarks" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -79,12 +102,14 @@
       <window_info anchor="bottom" id="Problems View" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32999998" />
       <window_info anchor="bottom" id="Services" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Layout Validation" order="8" />
     </layout>
     <recentWindows>
       <value>Project</value>
+      <value>Terminal</value>
     </recentWindows>
   </component>
   <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
@@ -93,19 +118,34 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="445" y="113" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.25.1440.790@0.25.1440.790" timestamp="1678015171381" />
+    <state x="308" y="158" key="IDE.errors.dialog" timestamp="1678787848846">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="308" y="158" key="IDE.errors.dialog/0.25.1440.790@0.25.1440.790" timestamp="1678787848846" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/sample_3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test.java">
+    <entry file="file://$PROJECT_DIR$/src/test/sample_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

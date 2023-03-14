@@ -151,3 +151,10 @@ java.class.shortname
 java.class.fqn
 java.module.name
 shared.index.hashes.Stubs
+org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex
+org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex
+kotlin.primeIndexKey
+org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex
+org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex
+shared.index.hashes.org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex
+shared.index.hashes.org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex

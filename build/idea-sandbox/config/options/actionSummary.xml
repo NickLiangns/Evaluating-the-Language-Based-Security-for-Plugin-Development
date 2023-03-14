@@ -1,10 +1,16 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="2" l="1678787869176" />
+    </e>
     <e n="AddFrameworkSupport">
       <i c="1" l="1678015169314" />
     </e>
+    <e n="EditorEnter">
+      <i c="1" l="1678787875804" />
+    </e>
     <e n="NewClass">
-      <i c="2" l="1678015220283" />
+      <i c="3" l="1678787873405" />
     </e>
     <e n="NewDir">
       <i c="1" l="1678015201862" />
@@ -14,6 +20,9 @@
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="2" l="1677415731534" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeMessagePanel$4">
+      <i c="1" l="1678787842193" />
     </e>
     <e n="com.intellij.ide.ReopenProjectAction">
       <i c="2" l="1677448966518" />
