@@ -1,8 +1,0 @@
-<options>
-  <configurable id="preferences.keymap" configurable_name="Keymap">
-    <option name="addredundantfiles" path="ActionManager" hit="AddRedundantFiles" />
-    <option name="deleterandomlines" path="ActionManager" hit="DeleteRandomLines" />
-    <option name="javatotxtaction" path="ActionManager" hit="JavaToTxtAction" />
-    <option name="listhttprequests" path="ActionManager" hit="ListHttpRequests" />
-  </configurable>
-</options>
