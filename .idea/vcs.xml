@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/FileManipulator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Highlighter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Highlighter copy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NetworkManipulator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new" vcs="Git" />
+  </component>
+</project>
