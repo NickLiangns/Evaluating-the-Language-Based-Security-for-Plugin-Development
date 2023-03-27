@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>Myplugin</id>
+    <name>Highlighter</name>
+    <vendor email="1109000414lns@gmail.com" url="https://github.com/NickLiangns/Evaluating-the-Language-Based-Security-for-Plugin-Development">Github</vendor>
+
+    <description><![CDATA[
+    Welcome to use, this is my first plugin!
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="Highlight" class="Highlighter.Highlight" text="Highlight">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+
+    </actions>
+</idea-plugin>
