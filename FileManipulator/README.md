@@ -1,8 +1,7 @@
-## Evaluating the Language-Based Security for Plugin Development
+## Network Manipulator
 
-This repo is for evaluating the language-Based Security for Plugin Development. The developing environment is based on Intellij and employs JAVA mainly.
+This plugin is for exploring how we can manipulate the users' local files without the any authentications. 
 
-## Objectives
-* Developing IntelliJ plug ins that try to access files, network, other parts of the application that plugin user does not expect.
-* Exploring the CVE that take advantage of similar capability- based accesses and implementing them as IntelliJ plugin exploits.
-* Analysis of which of these can be addressed by languages that support capability-based module systems like Wyvern.
+## Current Achievements
+
+* All CRUD operations can be implemented in the local file system including the current project files and other files in the local file system except the root folder. 
