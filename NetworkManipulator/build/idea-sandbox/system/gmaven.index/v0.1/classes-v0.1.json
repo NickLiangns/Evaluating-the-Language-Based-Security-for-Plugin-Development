@@ -10186,7 +10186,7 @@
     {
       "groupId": "com.android.car.ui",
       "artifactId": "car-ui-lib",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "ktxTargets": [],
       "fqcns": [
         "com.android.car.ui.AlertDialogBuilder",
@@ -10203,10 +10203,10 @@
         "com.android.car.ui.RotaryScrollWebView",
         "com.android.car.ui.SecureView",
         "com.android.car.ui.appstyledview.AppStyledDialogController",
-        "com.android.car.ui.appstyledview.AppStyledRecyclerViewAdapter",
         "com.android.car.ui.appstyledview.AppStyledViewController",
         "com.android.car.ui.appstyledview.AppStyledViewControllerAdapterV1",
         "com.android.car.ui.appstyledview.AppStyledViewControllerAdapterV2",
+        "com.android.car.ui.appstyledview.AppStyledViewControllerAdapterV3",
         "com.android.car.ui.baselayout.ClickBlockingView",
         "com.android.car.ui.baselayout.Insets",
         "com.android.car.ui.baselayout.InsetsChangedListener",
@@ -10320,7 +10320,7 @@
     {
       "groupId": "com.android.car.ui",
       "artifactId": "car-ui-lib-plugin-apis",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "ktxTargets": [],
       "fqcns": [
         "com.android.car.ui.plugin.oemapis.BiConsumer",
@@ -10329,10 +10329,10 @@
         "com.android.car.ui.plugin.oemapis.FocusParkingViewOEMV1",
         "com.android.car.ui.plugin.oemapis.Function",
         "com.android.car.ui.plugin.oemapis.InsetsOEMV1",
-        "com.android.car.ui.plugin.oemapis.PluginFactoryOEMV4",
+        "com.android.car.ui.plugin.oemapis.PluginFactoryOEMV5",
         "com.android.car.ui.plugin.oemapis.PluginVersionProviderOEMV1",
         "com.android.car.ui.plugin.oemapis.TextOEMV1",
-        "com.android.car.ui.plugin.oemapis.appstyledview.AppStyledViewControllerOEMV2",
+        "com.android.car.ui.plugin.oemapis.appstyledview.AppStyledViewControllerOEMV3",
         "com.android.car.ui.plugin.oemapis.recyclerview.AdapterDataObserverOEMV1",
         "com.android.car.ui.plugin.oemapis.recyclerview.AdapterOEMV1",
         "com.android.car.ui.plugin.oemapis.recyclerview.ContentListItemOEMV2",
@@ -10340,9 +10340,8 @@
         "com.android.car.ui.plugin.oemapis.recyclerview.LayoutStyleOEMV1",
         "com.android.car.ui.plugin.oemapis.recyclerview.ListItemOEMV1",
         "com.android.car.ui.plugin.oemapis.recyclerview.OnChildAttachStateChangeListenerOEMV1",
-        "com.android.car.ui.plugin.oemapis.recyclerview.OnScrollListenerOEMV1",
         "com.android.car.ui.plugin.oemapis.recyclerview.RecyclerViewAttributesOEMV1",
-        "com.android.car.ui.plugin.oemapis.recyclerview.RecyclerViewOEMV1",
+        "com.android.car.ui.plugin.oemapis.recyclerview.RecyclerViewOEMV2",
         "com.android.car.ui.plugin.oemapis.recyclerview.ViewHolderOEMV1",
         "com.android.car.ui.plugin.oemapis.toolbar.ImeSearchInterfaceOEMV2",
         "com.android.car.ui.plugin.oemapis.toolbar.MenuItemOEMV1",
@@ -11389,7 +11388,7 @@
     {
       "groupId": "com.android.tools",
       "artifactId": "r8",
-      "version": "8.0.34",
+      "version": "8.0.40",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13413,7 +13412,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-cast",
-      "version": "21.2.0",
+      "version": "21.3.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.cast.AdBreakClipInfo",
@@ -13450,7 +13449,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-cast-framework",
-      "version": "21.2.0",
+      "version": "21.3.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.cast.framework.CastButtonFactory",
@@ -13510,7 +13509,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-cast-tv",
-      "version": "20.0.0",
+      "version": "21.0.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.cast.tv.CastLaunchRequest",
@@ -16900,7 +16899,7 @@
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-auth",
-      "version": "21.1.0",
+      "version": "21.2.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.dynamite.descriptors.com.google.firebase.auth.ModuleDescriptor",
@@ -16923,6 +16922,7 @@
         "com.google.firebase.auth.FirebaseAuthEmailException",
         "com.google.firebase.auth.FirebaseAuthInvalidCredentialsException",
         "com.google.firebase.auth.FirebaseAuthInvalidUserException",
+        "com.google.firebase.auth.FirebaseAuthMissingActivityForRecaptchaException",
         "com.google.firebase.auth.FirebaseAuthMultiFactorException",
         "com.google.firebase.auth.FirebaseAuthProvider",
         "com.google.firebase.auth.FirebaseAuthRecentLoginRequiredException",
@@ -17005,7 +17005,7 @@
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-auth-ktx",
-      "version": "21.1.0",
+      "version": "21.2.0",
       "ktxTargets": [
         "com.google.firebase:firebase-auth"
       ],
@@ -17039,7 +17039,7 @@
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-bom",
-      "version": "31.3.0",
+      "version": "31.4.0",
       "ktxTargets": [],
       "fqcns": []
     },

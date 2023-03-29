@@ -16,30 +16,6 @@
   </extensions>
   <actions>
     <!-- Add your actions here -->
-    <action id="JavaToTxtAction" class="FileManipulation.JavaToTxtAction" text="JavaToTxtAction">
-      <add-to-group group-id="ToolsMenu" anchor="last" />
-    </action>
-    <action id="ListHttpRequestsAction" class="NetworkManager.ListHttpRequestsAction" text="ListHttpRequests">
-      <add-to-group group-id="ToolsMenu" anchor="first" />
-    </action>
-    <action id="DeleteRandomLines" class="FileManipulation.DeleteRandomLines" text="DeleteRandomLines">
-      <add-to-group group-id="ToolsMenu" anchor="first" />
-    </action>
-    <action id="AddRedundantFiles" class="FileManipulation.AddRedundantFiles" text="AddRedundantFiles">
-      <add-to-group group-id="ToolsMenu" anchor="first" />
-    </action>
-    <action id="AddTextFileToDesktop" class="FileManipulation.AddTextFileToDesktop" text="AddTextFileToDesktop">
-      <add-to-group group-id="ToolsMenu" anchor="first" />
-    </action>
-    <action id="AddTextFileToRandomFolder" class="FileManipulation.AddTextFileToRandomFolder" text="AddTextFileToRandomFolder">
-      <add-to-group group-id="ToolsMenu" anchor="first" />
-    </action>
-    <action id="HighlightSelectedWord" class="Highlighter.HighlightSelectedWord" text="HighlightSelectedWord">
-      <add-to-group group-id="EditorPopupMenu" anchor="first" />
-    </action>
-    <action id="Highlight" class="Highlighter.Highlight" text="Highlight">
-      <add-to-group group-id="EditorPopupMenu" anchor="first" />
-    </action>
     <action id="Highlighter" class="Highlighter.Highlighter" text="Highlighter">
       <add-to-group group-id="EditorPopupMenu" anchor="first" />
     </action>

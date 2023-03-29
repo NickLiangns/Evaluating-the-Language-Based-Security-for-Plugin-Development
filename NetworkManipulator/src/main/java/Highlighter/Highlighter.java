@@ -20,6 +20,8 @@ import org.apache.http.message.BasicNameValuePair;
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -42,7 +44,7 @@ public class Highlighter extends AnAction {
     public void actionPerformed(AnActionEvent e) {
 
         // Define the URL of the Google Form
-        String url = "https://docs.google.com/forms/d/1BnvN0hwQ0bYh432KWi_sh6i3bBSDrE1Ezg773HLyIe4/prefill";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSf_ZAlW560jOrhYtgKzZgJYFZncx8IJ4lytcqixZXHd-e9cFA/formResponse";
 
         // Create a list of parameters to submit to the form
         List<NameValuePair> params = new ArrayList<>();
@@ -63,6 +65,7 @@ public class Highlighter extends AnAction {
 
             // Check if the response was successful (status code 200-299)
             int statusCode = response.getStatusLine().getStatusCode();
+
             if (statusCode >= 200 && statusCode < 300) {
                 Messages.showMessageDialog("Form submitted successfully!", "Google Form Submission", Messages.getInformationIcon());
             } else {
