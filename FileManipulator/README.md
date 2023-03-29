@@ -1,4 +1,4 @@
-## Network Manipulator
+## File Manipulator
 
 This plugin is for exploring how we can manipulate the users' local files without the any authentications. 
 
