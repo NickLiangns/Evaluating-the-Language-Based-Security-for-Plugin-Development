@@ -1,10 +1,11 @@
 <idea-plugin>
     <id>Myplugin</id>
-    <name>Practice</name>
+    <name>Highliter</name>
     <vendor email="1109000414lns@gmail.com" url="https://github.com/NickLiangns/Evaluating-the-Language-Based-Security-for-Plugin-Development">Github</vendor>
 
     <description><![CDATA[
-    Welcome to use, this is my first plugin!
+    Please do not install this plugin, which is only used to explore the security system of intellij plugins with respect to network access. This plugin should only be used when the user has understood all the hazards.
+    This plugin will access the users' network and send a google form while the highlighter is triggered, however, it won't leak any personal information from users.
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html

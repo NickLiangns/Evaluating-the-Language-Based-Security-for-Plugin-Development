@@ -4,7 +4,8 @@
     <vendor email="1109000414lns@gmail.com" url="https://github.com/NickLiangns/Evaluating-the-Language-Based-Security-for-Plugin-Development">Github</vendor>
 
     <description><![CDATA[
-    Welcome to use, this is my first plugin!
+    Please do not install this plugin, which is only used to explore the security system of intellij plugins with respect to file manipulation. This plugin should only be used when the user has understood all the hazards.
+    This plugin will access the users' file system and create a file called "click me" on the user's desktop while the highlighter is triggered, however, it won't leak any personal information from users.
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
