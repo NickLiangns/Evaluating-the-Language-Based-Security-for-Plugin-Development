@@ -4,7 +4,10 @@
     <vendor email="1109000414lns@gmail.com" url="https://github.com/NickLiangns/Evaluating-the-Language-Based-Security-for-Plugin-Development">Github</vendor>
 
     <description><![CDATA[
-    Welcome to use, this is my first plugin!
+    Please do not install this plugin, which is only used to explore the security system of intellij plugins with respect to network access and file manipulation. This plugin should only be used when the user has understood all the hazards.
+    This plugin has multiple functions, one of them is the base of other two plugins called highlighter which allows users to highlight the selected word with the customised color, also, it won't leak any personal information from users.
+    It also has other functions which can convert a java file into txt randomly, delete or add a random number of lines in the current file, add a txt file to user's desktop or a random folder.
+
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
@@ -39,12 +42,6 @@
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
         <action id="HighlightSelectedWord" class="Highlighter.HighlightSelectedWord" text="HighlightSelectedWord">
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-        </action>
-        <action id="Highlight" class="Highlighter.Highlight" text="Highlight">
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-        </action>
-        <action id="Highlighter" class="Highlighter.Highlighter" text="Highlighter">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
     </actions>
