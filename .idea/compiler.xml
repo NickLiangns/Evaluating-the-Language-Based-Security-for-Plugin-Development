@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="FileManipulator.My-plugin" target="11" />
+      <module name="FileManipulator.My-plugin.main" target="11" />
+      <module name="FileManipulator.My-plugin.test" target="11" />
+      <module name="HighlighterNS_Network" target="11" />
+      <module name="HighlighterNS_Network.main" target="11" />
+      <module name="HighlighterNS_Network.test" target="11" />
+      <module name="HihglighterNS_File" target="11" />
+      <module name="HihglighterNS_File.main" target="11" />
+      <module name="HihglighterNS_File.test" target="11" />
+      <module name="NetworkManipulator.My-plugin" target="11" />
+      <module name="NetworkManipulator.My-plugin.main" target="11" />
+      <module name="NetworkManipulator.My-plugin.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
