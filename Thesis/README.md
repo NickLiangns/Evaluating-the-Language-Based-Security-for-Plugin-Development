@@ -1,8 +1,5 @@
-## Evaluating the Language-Based Security for Plugin Development
+## Thesis of evaluating the Language-Based Security for Plugin Development
+The **Thesis** file contains the main contents and all records. I mainly improve and complete it to the final version of thesis.
 
-This repo is for evaluating the language-Based Security for Plugin Development. The developing environment is based on Intellij and employs JAVA mainly.
-
-## Objectives
-* Developing IntelliJ plug ins that try to access files, network, other parts of the application that plugin user does not expect.
-* Exploring the CVE that take advantage of similar capability- based accesses and implementing them as IntelliJ plugin exploits.
-* Analysis of which of these can be addressed by languages that support capability-based module systems like Wyvern.
+## Draft thesis outline and points
+Another file consists of many points about what I am thinking and I want to write in the thesis in the form of outline. I will modify them or update them in the process of writing the thesis.
