@@ -1,5 +1,5 @@
-## Thesis of evaluating the Language-Based Security for Plugin Development
-The **Thesis** file contains the main contents and all records. I mainly improve and complete it to the final version of thesis.
+## Thesis of Evaluating the Language-Based Security for Plugin Development
+The **Thesis** file contains the main contents and all records. I mainly improve it and complete the final version of the thesis.
 
-## Draft thesis outline and points
-Another file consists of many points about what I am thinking and I want to write in the thesis in the form of outline. I will modify them or update them in the process of writing the thesis.
+## Latex version of this thesis
+Another zip file consists of the original Latex files of the thesis including all chapters and bib.
